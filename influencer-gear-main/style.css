@@ -1,0 +1,26 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Moon+Dance&family=Poppins:wght@400;500&family=Roboto+Mono:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.header{
+    margin-left: 130px;
+}
+.star-heading{
+    font-size: 35px;
+}
+.first-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width: 80%;
+    margin: 130px;
+}
+.first-container img{
+    width: 440px;
+    height: 414px;
+    
+
+}
