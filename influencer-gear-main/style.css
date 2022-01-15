@@ -72,6 +72,8 @@ body{
  --------------*/
  .iphone{
      display: flex;
+    
+
      
    
 }   
@@ -110,4 +112,17 @@ footer sections
 .footer-icon{
     word-spacing: 10px;
 }
-
+/* ---------------
+    media quary 
+------------------*/
+/*-----------------
+     mobile Devise 
+-------------------*/
+@media (max-width:688px) {
+  .first-container, .top-blogs {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+    
+  }
+   
